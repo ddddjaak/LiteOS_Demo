@@ -337,7 +337,7 @@
               <MiscControls>--diag_suppress=1,47,177,186,223,1295</MiscControls>
               <Define>STM32F10X_HD, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Lib\CMSIS\Include;..\Lib\FWlib\inc;..\User;..\LiteOS\cmsis;..\LiteOS\cmsis\1.0;..\LiteOS\cmsis\2.0;..\LiteOS\arch\arm\arm-m\include;..\LiteOS\kernel\base\include;..\LiteOS\kernel\extended\include;..\LiteOS\kernel\include;..\LiteOS\OS_CONFIG;..\bsp\LED</IncludePath>
+              <IncludePath>..\Lib\CMSIS\Include;..\Lib\FWlib\inc;..\User;..\LiteOS\cmsis;..\LiteOS\cmsis\1.0;..\LiteOS\cmsis\2.0;..\LiteOS\arch\arm\arm-m\include;..\LiteOS\kernel\base\include;..\LiteOS\kernel\extended\include;..\LiteOS\kernel\include;..\LiteOS\OS_CONFIG;..\bsp\LED;..\system\usart;..\system\delay;..\system\sys</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -740,6 +740,23 @@
         </Group>
         <Group>
           <GroupName>system</GroupName>
+          <Files>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\system\delay\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\system\sys\sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\system\usart\usart.c</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
