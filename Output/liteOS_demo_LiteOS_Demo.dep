@@ -37,7 +37,7 @@ I (..\Lib\FWlib\inc\stm32f10x_usart.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\stm32f10x_wwdg.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\misc.h)(0x652F8E03)
 F (..\Lib\CMSIS\system_stm32f10x.h)(0x652F8E03)()
-F (..\User\main.c)(0x653A409B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+F (..\User\main.c)(0x653B5173)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -74,7 +74,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (..\LiteOS\OS_CONFIG\los_printf.h)(0x5C6CA86E)
@@ -89,6 +89,9 @@ I (..\LiteOS\arch\arm\arm-m\include\los_hw.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_tick.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_event.h)(0x5C6CA86E)
 I (..\bsp\LED\led.h)(0x65312993)
+I (..\system\delay\delay.h)(0x5F4692AA)
+I (..\system\sys\sys.h)(0x653A695A)
+I (..\system\usart\usart.h)(0x5F4692AA)
 F (..\User\stm32f10x_conf.h)(0x652F8E03)()
 F (..\User\stm32f10x_it.c)(0x652F8E03)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
 I (..\User\stm32f10x_it.h)(0x652F8E03)
@@ -128,7 +131,7 @@ I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -206,7 +209,7 @@ I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\base\include\los_base.ph)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -265,7 +268,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -329,7 +332,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -381,7 +384,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -447,7 +450,7 @@ I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_err.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -501,7 +504,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -559,7 +562,7 @@ I (..\LiteOS\kernel\base\include\los_task.ph)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_task.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -613,7 +616,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -674,7 +677,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -736,7 +739,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -799,7 +802,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -849,7 +852,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -905,7 +908,7 @@ I (..\LiteOS\kernel\base\include\los_task.ph)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_task.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -957,7 +960,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (..\Lib\CMSIS\Include\core_cmInstr.h)(0x652F8E03)
@@ -1001,7 +1004,7 @@ I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1049,7 +1052,7 @@ I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\arch\arm\arm-m\include\los_hwi.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1097,7 +1100,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1152,7 +1155,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1196,7 +1199,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1251,7 +1254,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1304,7 +1307,7 @@ I (..\LiteOS\kernel\base\include\los_memory.ph)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_memory.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1354,7 +1357,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1410,7 +1413,7 @@ I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_err.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1460,7 +1463,7 @@ I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
-I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -1503,7 +1506,7 @@ I (..\LiteOS\kernel\base\include\los_tick.ph)(0x5C6CA86E)
 I (..\LiteOS\kernel\include\los_tick.h)(0x5C6CA86E)
 F (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)()
 F (..\LiteOS\OS_CONFIG\los_printf.h)(0x5C6CA86E)()
-F (..\LiteOS\OS_CONFIG\target_config.h)(0x653A3CA3)()
+F (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)()
 F (..\Lib\FWlib\src\stm32f10x_wwdg.c)(0x652F8E03)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_wwdg.o --omf_browse ..\output\stm32f10x_wwdg.crf --depend ..\output\stm32f10x_wwdg.d)
 I (..\Lib\FWlib\inc\stm32f10x_wwdg.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
@@ -2249,9 +2252,9 @@ I (..\Lib\FWlib\inc\stm32f10x_tim.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\stm32f10x_usart.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\stm32f10x_wwdg.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\misc.h)(0x652F8E03)
-F (..\system\delay\delay.c)(0x5F4692AA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\delay.o --omf_browse ..\output\delay.crf --depend ..\output\delay.d)
+F (..\system\delay\delay.c)(0x653A6997)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\delay.o --omf_browse ..\output\delay.crf --depend ..\output\delay.d)
 I (..\system\delay\delay.h)(0x5F4692AA)
-I (..\system\sys\sys.h)(0x5F469139)
+I (..\system\sys\sys.h)(0x653A695A)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -2282,8 +2285,27 @@ I (..\Lib\FWlib\inc\stm32f10x_tim.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\stm32f10x_usart.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\stm32f10x_wwdg.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\misc.h)(0x652F8E03)
+I (..\LiteOS\kernel\include\los_task.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
+I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\LiteOS\OS_CONFIG\los_printf.h)(0x5C6CA86E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\LiteOS\kernel\include\los_list.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_errno.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_err.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_sys.h)(0x5C6CA86E)
+I (..\LiteOS\arch\arm\arm-m\include\los_hwi.h)(0x5C6CA86E)
+I (..\LiteOS\arch\arm\arm-m\include\los_hw.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_tick.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_event.h)(0x5C6CA86E)
 F (..\system\sys\sys.c)(0x5F469139)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\sys.o --omf_browse ..\output\sys.crf --depend ..\output\sys.d)
-I (..\system\sys\sys.h)(0x5F469139)
+I (..\system\sys\sys.h)(0x653A695A)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -2314,8 +2336,8 @@ I (..\Lib\FWlib\inc\stm32f10x_tim.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\stm32f10x_usart.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\stm32f10x_wwdg.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\misc.h)(0x652F8E03)
-F (..\system\usart\usart.c)(0x5F4692AA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\usart.o --omf_browse ..\output\usart.crf --depend ..\output\usart.d)
-I (..\system\sys\sys.h)(0x5F469139)
+F (..\system\usart\usart.c)(0x653A6AB2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Lib\CMSIS\Include -I ..\Lib\FWlib\inc -I ..\User -I ..\LiteOS\cmsis -I ..\LiteOS\cmsis\1.0 -I ..\LiteOS\cmsis\2.0 -I ..\LiteOS\arch\arm\arm-m\include -I ..\LiteOS\kernel\base\include -I ..\LiteOS\kernel\extended\include -I ..\LiteOS\kernel\include -I ..\LiteOS\OS_CONFIG -I ..\bsp\LED -I ..\system\usart -I ..\system\delay -I ..\system\sys --diag_suppress=1,47,177,186,223,1295-I.\RTE\_LiteOS_Demo-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\usart.o --omf_browse ..\output\usart.crf --depend ..\output\usart.d)
+I (..\system\sys\sys.h)(0x653A695A)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
 I (..\Lib\CMSIS\Include\core_cm3.h)(0x652F8E03)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -2348,3 +2370,21 @@ I (..\Lib\FWlib\inc\stm32f10x_wwdg.h)(0x652F8E03)
 I (..\Lib\FWlib\inc\misc.h)(0x652F8E03)
 I (..\system\usart\usart.h)(0x5F4692AA)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\LiteOS\kernel\include\los_task.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_base.h)(0x5C6CA86E)
+I (..\LiteOS\OS_CONFIG\los_builddef.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_compiler.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_typedef.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_config.h)(0x5C6CA86E)
+I (..\LiteOS\OS_CONFIG\target_config.h)(0x653A68DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\LiteOS\OS_CONFIG\los_printf.h)(0x5C6CA86E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
+I (..\LiteOS\kernel\include\los_list.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_errno.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_err.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_sys.h)(0x5C6CA86E)
+I (..\LiteOS\arch\arm\arm-m\include\los_hwi.h)(0x5C6CA86E)
+I (..\LiteOS\arch\arm\arm-m\include\los_hw.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_tick.h)(0x5C6CA86E)
+I (..\LiteOS\kernel\include\los_event.h)(0x5C6CA86E)

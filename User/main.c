@@ -4,10 +4,12 @@
 #include "los_sys.h"
 #include "los_typedef.h"
 #include "los_task.ph"
+#include "target_config.h"
 
 /*bsp file*/
 #include "led.h"
-
+#include "delay.h"
+#include "usart.h"
 /*board config file*/
 
 
@@ -24,7 +26,8 @@ int main(void)
 	UINT32 ret = LOS_OK;
 	
 	NVIC_PriorityGroupConfig( NVIC_PriorityGroup_4 );
-	//uart_init(115200);
+	uart_init(115200);
+	delay_init();
  	LED_Init();
 	GPIO_SetBits(GPIOB,GPIO_Pin_5);
 	
@@ -83,11 +86,14 @@ static void led_task(void)
 		if (GPIO_ReadOutputDataBit(GPIOB,GPIO_Pin_5) == 0)
 		{
 			GPIO_SetBits(GPIOB,GPIO_Pin_5);
+			printf("high gpiob pin 5\n");
 		}
 		else
 		{
 			GPIO_ResetBits(GPIOB,GPIO_Pin_5);
+			printf("low gpiob pin 5\n");
 		}
+		//delay_ms(1000);
 		LOS_TaskDelay(1000);		
 	}
 }

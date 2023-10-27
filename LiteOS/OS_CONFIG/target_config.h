@@ -50,7 +50,6 @@
 extern "C" {
 #endif /* __cplusplus */
 #endif /* __cplusplus */
-#define SYSTEM_SUPPORT_OS	1
 /*=============================================================================
                                         System clock module configuration
 =============================================================================*/

@@ -53,3 +53,6 @@
 ..\output\main.o: ..\LiteOS\kernel\include\los_tick.h
 ..\output\main.o: ..\LiteOS\kernel\include\los_event.h
 ..\output\main.o: ..\bsp\LED\led.h
+..\output\main.o: ..\system\delay\delay.h
+..\output\main.o: ..\system\sys\sys.h
+..\output\main.o: ..\system\usart\usart.h
